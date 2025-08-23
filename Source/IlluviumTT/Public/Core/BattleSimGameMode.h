@@ -40,7 +40,7 @@ public:
 	TSubclassOf<ASimulatedSphere> SimulatedSphereClass;
 
 	UPROPERTY(EditAnywhere, Category="Visual")
-	float CellZOffsetUU = 40.f;
+	float CellZOffset = 140.f;
 
 private:
 	UPROPERTY()

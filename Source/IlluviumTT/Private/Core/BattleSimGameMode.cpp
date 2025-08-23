@@ -132,5 +132,5 @@ FVector ABattleSimGameMode::CellToWorld(const FGridCoordinate& Cell) const
 	const float OriginY = bCenter ? -((GridY - 1) * CellSize * 0.5f) : 0.f;
 
 	return ActiveGridMap->GetActorLocation()
-		+ FVector(OriginX + Cell.X * CellSize, OriginY + Cell.Y * CellSize, CellZOffsetUU);
+		+ FVector(OriginX + Cell.X * CellSize, OriginY + Cell.Y * CellSize, CellZOffset);
 }

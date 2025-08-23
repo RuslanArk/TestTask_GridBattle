@@ -55,5 +55,5 @@ private:
 	float EmissiveTarget = 0.f;
 	bool bDying = false;
 	float DieTimer = 0.f;
-	float DieFadeTime = 0.35f;
+	float DieFadeTime = 0.55f;
 };
