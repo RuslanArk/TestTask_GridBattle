@@ -26,7 +26,6 @@ USTRUCT(BlueprintType)
 struct FSimConfig
 {
 	GENERATED_USTRUCT_BODY()
-	// TODO: [RUSLAN.A] As it is used in many places should have one source, refactor if have time
 	FIntPoint GridSize = {100, 100};
 
 	// Core rules
